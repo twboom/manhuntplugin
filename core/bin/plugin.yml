@@ -2,3 +2,6 @@ main: me.Manhunt.core.Main
 name: ManhuntCore
 version: 1.0
 author: TWBoom
+
+commands:
+  Hello:
