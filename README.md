@@ -1,2 +1,2 @@
-# manhuntplugin
-A datapack for a Minecraft Manhunt.
+# Manhunt Plugin
+A plugin for a Minecraft Manhunt.
