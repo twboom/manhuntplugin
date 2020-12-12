@@ -9,7 +9,7 @@ public class Main extends JavaPlugin{
 		// Startup
 		// Reloads
 		// Plugin reload
-		this.getCommand("Hello").setExecutor(new Join());
+		this.getCommand("Join").setExecutor(new Join());
 	}
 	
 	@Override
