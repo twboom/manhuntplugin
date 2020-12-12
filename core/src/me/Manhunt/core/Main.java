@@ -30,11 +30,18 @@ public class Main extends JavaPlugin{
 			if (sender instanceof Player) {
 				// Sender is player
 				Player player = (Player) sender;
-				player.sendMessage(ChatColor.LIGHT_PURPLE + "Hey player!");
+				if (player.hasPermission("hello.use")) {
+					player.sendMessage(ChatColor.LIGHT_PURPLE + "Hey player!");
+					return true;
+				}
+				else {
+					player.sendMessage(ChatColor.RED + "You do not have permission!");
+				}
 			}
 			else {
 				// Sender is console
 				sender.sendMessage("Hey!");
+				return true;
 			}
 		}
 		
